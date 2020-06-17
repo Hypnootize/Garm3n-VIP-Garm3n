@@ -37,6 +37,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		
+		if_comp
+		{
+			"wide"		"0"
+		}
 	}
 
 	"TimeBG"
@@ -53,6 +58,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		
+		if_comp
+		{
+			"wide"		"0"
+		}
 	}
 
 	"StopWatchImageCaptureTime"
@@ -69,7 +79,7 @@
 		"image"			"../hud/ico_time_10"
 		"scaleImage"		"1"	
 		//"teambg_2"		"../hud/objectives_timepanel_red_bg"
-		//"teambg_3"		"../hud/objectives_timepanel_blue_bg"		
+		//"teambg_3"		"../hud/objectives_timepanel_blue_bg"	
 	}
 
 	"ObjectiveStatusTimePanel"
@@ -83,6 +93,11 @@
 		"tall"				"480"
 		"visible"			"0"
 		"enabled"			"1"
+		
+		if_comp
+		{
+			"ypos"			"30"
+		}
 
 		"TimePanelValue"
 		{
@@ -98,6 +113,13 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
+			
+			if_comp
+			{
+				"xpos"			"c15"
+				"textAlignment"	"west"
+				"fgcolor"		"Garm3nWhite"
+			}
 		}	
 	}
 
@@ -118,6 +140,13 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
+		
+		if_comp
+		{
+			"xpos"		"c-60"
+			"ypos"		"28"
+			"fgcolor"	"Garm3nWhite"
+		}
 	}
 	"StopWatchPointsLabel"
 	{
@@ -137,6 +166,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
+		
+		if_comp
+		{
+			"xpos"		"c-55"
+			"ypos"		"28"
+			"fgcolor"	"Garm3nWhite"
+			
+		}
 	}
 	"StopWatchLabel"
 	{
@@ -156,6 +193,11 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"0"
+		
+		if_comp
+		{
+			
+		}
 	}
 
 	"HudStopWatchDescriptionBG"
@@ -179,6 +221,11 @@
 		
 		"draw_corner_width"	"2"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"2"	
+		
+		if_comp
+		{
+			
+		}
 	}
 
 	"StopWatchDescriptionLabel"
@@ -199,5 +246,10 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"0"
+		
+		if_comp
+		{
+			
+		}
 	}
 }

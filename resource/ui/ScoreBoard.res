@@ -1522,13 +1522,13 @@
 				"ypos"		"r132"
 			}
 		}
-		"BonusLabel"
+		"DamageLabel"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"BonusLabel"
+			"fieldName"		"DamageLabel"
 			"font"			"Medium9"
 			"font_minmode"		"ScoreboardVerySmall"
-			"labelText"		"#TF_ScoreBoard_BonusLabel"
+			"labelText"		"#TF_ScoreBoard_DamageLabel"
 			"fgcolor"		"Garm3nTarget"
 			"textAlignment"		"west"
 			"xpos"			"c100"
@@ -1548,13 +1548,13 @@
 				"ypos"		"r122"
 			}
 		}
-		"Bonus2"
+		"Damage2"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Bonus2"
+			"fieldName"		"Damage2"
 			"font"			"Medium9"
 			"font_minmode"		"ScoreboardVerySmall"
-			"labelText"		"%bonus%"
+			"labelText"		"%damage%"
 			"fgcolor"		"Garm3nWhite"
 			"textAlignment"	"east"
 			"xpos"			"c99"
